@@ -5,3 +5,9 @@ from django.shortcuts import render
 def index(request):
     return render(request,'oursite/index.html',{})
 
+def contact(request):
+    return render(request,'oursite/contact-us.html', {})
+
+
+def register(request):
+    return render(request,'oursite/register.html',{})
