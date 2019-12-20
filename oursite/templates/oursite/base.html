@@ -31,7 +31,7 @@
                 <div class="container">
                   <div class="row top_bar">
                     <div class="col-lg-6 offer mb-3 mb-lg-0"><a href="#" class="btn btn-success btn-sm">Offer of the day</a>
-                      <a href="#" class="ml-1">Get flat 35% off on orders over $50!</a></div>
+                      <a href="#" class="ml-1">Get flat 35% off on orders!</a></div>
                     <div class="col-lg-6 text-center text-lg-right">
                       <ul class="menu list-inline mb-0">
                         <li class="list-inline-item"><a href="#" id="login" data-toggle="modal" data-target="#login-modal">Login</a></li>
@@ -58,11 +58,11 @@
                             <input id="password-modal" type="password" placeholder="password" class="form-control">
                           </div>
                           <p class="text-center">
-                            <button class="btn btn-primary" id="Close_login_model"><i class="fa fa-sign-in"></i> Log in</button>
+                            <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
                           </p>
                         </form>
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="{% url 'oursite:register' %}" class="mr-2"><strong>Register now</strong></a> and get access our special services and more!</p>
+                        <p class="text-center text-muted"><a href="{% url 'oursite:register' %}"><strong>Register now</strong></a> and get access to special services</p>
                       </div>
                     </div>
                   </div>
@@ -71,7 +71,7 @@
                 <!--end of top bar-->
 
         <!--nav bar-->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-nav-bar" id="navbar">
             <div class="container"><a href="index.html" class="navbar-brand home"><img src="" alt="logo" class="d-none d-md-inline-block">
               <img src="images/logo.png" alt="logo" class="d-inline-block d-md-none"><span class="sr-only">Amobit - go to homepage</span></a>
               <div class="navbar-buttons">
